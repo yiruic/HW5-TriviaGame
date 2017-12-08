@@ -1,17 +1,21 @@
 //set questions
-var questions = [{
+var questions = [
+{
 question: "Who is not in Pulp Fiction?",
 choices: ["Quentin Tarantino", "Samuel L. Jackson", "Uma Thurma", "Tom Cruise"],
 correctAnswer: 3
-}, {
+}, 
+{
 question:"What did they call a Quarter Pounder with Cheese in Paris?",
 choices: ["Royale With Cheese", "Quart De Livre Avec Fromage", "Pound-Quatre, Fromage American", "Le Burger-Fromage"],
 correctAnswer: 0
-}, {
+}, 
+{
 question:"What is the name of the fictional cigarette brand created by Quentin Tarantino?",
 choices: ["Rotten Tomatoes", "Red Apples", "Camel Red", "Old Golds"],
 correctAnswer: 1
-}, {
+}, 
+{
 question:"Who attempted to rob and Vincent and Jules when eating breakfast?",
 choices: ["Bonnie and Clyde", "Tom and Jerry", "Bambi and Thumper", "Pumpkin and Honeybunny"],
 correctAnswer: 3
