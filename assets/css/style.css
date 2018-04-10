@@ -10,13 +10,19 @@ body{
 	margin-bottom: 0px;
 	align-content: center;
 	text-align: center;
+	background: no-repeat fixed center;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/xv_@2X.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
 }
 
-div.game{
-	background-image: url("../images/xv_@2X.png");
-  	background-size: cover;
-	height: 1000px;
-}
 
 .h1{
 	display: block;
@@ -28,6 +34,10 @@ div.game{
 	background-color: black;
 	}
 
+#quiz-area, #sub-wrapper{
+	font-size: 30px;
+	color: white;
+}
 
 #start {
 	background-color: darkred;
@@ -40,4 +50,7 @@ div.game{
 	color:#ffffff;
 	padding:15px 30px;
 	margin:auto;
+	position:absolute;
+  right:150px;
+	bottom: 200px;
 }
